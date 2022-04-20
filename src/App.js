@@ -14,7 +14,7 @@ function App() {
   const [date, setDate] = useState('');
 
   const disabledButton =
-    name === '' || email === '' || checkedFormat === '' || checkedSchedule === '';
+    name === '' || email === '' || checkedFormat === '' || checkedSchedule === '' || time === '' || date === '';
 
   const handleFormat = (e) => {
     if (e.target.checked) {
